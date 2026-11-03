@@ -1,0 +1,14 @@
+{
+  "name": "usage-pulse",
+  "version": "0.1.0",
+  "description": "Animated usage band above the prompt: 5-hour, 7-day and context-window usage with reset times.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "animate": {
+      "type": "boolean",
+      "title": "Animate the bars",
+      "description": "Ease, shimmer and pulse the bars. Off draws static colored bars.",
+      "default": true
+    }
+  }
+}
